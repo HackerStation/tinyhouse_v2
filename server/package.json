@@ -5,6 +5,7 @@
     "apollo-server-express": "^2.6.4",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "googleapis": "^48.0.0",
     "graphql": "^14.3.1",
     "lodash.merge": "^4.6.2",
     "mongodb": "^3.2.7"
