@@ -12,6 +12,14 @@ export interface BookingsIndex {
   [key: string]: BookingsIndexYear;
 }
 
+export interface Viewer {
+  _id?: string;
+  token?: string;
+  avatar?: string;
+  walletId?: string;
+  didRequest: boolean;
+}
+
 export enum ListingType {
   Apartment = 'APARTMENT',
   House = 'HOUSE'
